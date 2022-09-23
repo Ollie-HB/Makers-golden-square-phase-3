@@ -11,7 +11,7 @@ RSpec.describe TaskList do
         expect(task_list.all_complete?).to eq false
       end
 
-  context "all behaviour - when given tasks" do
+  context "all behaviour - when given some tasks" do
       it "returns a list of tasks" do
           list = TaskList.new
           task1 = double :task
